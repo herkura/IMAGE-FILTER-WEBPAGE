@@ -1,0 +1,45 @@
+body
+{
+      background-color: Black;
+  border: solid;
+  border-width: 1px;
+  border-color:AliceBlue;
+  margin: 23px 22px 23px 13px;
+  padding: 22px 17px 15px 25px;
+  border-radius: 25px;
+  width:35%;
+}
+h1
+{
+  color:AliceBlue;
+}
+canvas
+{
+  width:400px;
+  height:200px;
+  border:2px dotted;
+  color:AliceBlue;
+  border-radius:25px;
+}
+h2
+{
+  color:AliceBlue;
+}
+input{
+  color:AliceBlue;
+  border-radius:9px;
+  font-size: 10pt;
+  color:slateblue;
+}
+:hover
+{
+  font-size:35px;
+  
+  border-radius:9px;
+  font-size: 11pt;
+  box-sizing: inherit;
+  transition-property:  width 2s, height 4s;
+  transition-duration: .6s;
+  transition-timing-function: ease-in-out
+}
+
