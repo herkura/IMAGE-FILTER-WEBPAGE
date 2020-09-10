@@ -1,25 +1,40 @@
 body
 {
-      background-color: Black;
-  border: solid;
-  border-width: 1px;
-  border-color:AliceBlue;
-  margin: 23px 22px 23px 13px;
-  padding: 22px 17px 15px 25px;
-  border-radius: 25px;
-  width:35%;
+     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 25%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 h1
 {
   color:AliceBlue;
+  text-align:center;
 }
 canvas
 {
-  width:400px;
-  height:200px;
+  width:300px;
+  height:300px;
   border:2px dotted;
   color:AliceBlue;
   border-radius:25px;
+   padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 800px;
+  
 }
 h2
 {
@@ -31,15 +46,15 @@ input{
   font-size: 10pt;
   color:slateblue;
 }
-:hover
+input:hover
 {
-  font-size:35px;
   
+  text-decoration:none;
   border-radius:9px;
   font-size: 11pt;
   box-sizing: inherit;
-  transition-property:  width 2s, height 4s;
   transition-duration: .6s;
   transition-timing-function: ease-in-out
+    transform: scale(1.1);
 }
 
