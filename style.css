@@ -27,8 +27,8 @@ h1
 }
 canvas
 {
-  width:100px;
-  height:600px;
+  width:200px;
+  height:400px;
   border:2px dotted;
   color:AliceBlue;
   border-radius:25px;
